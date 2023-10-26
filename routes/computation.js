@@ -31,13 +31,13 @@ router.get('/', function (req, res, next) {
   res.send(`The Random numbers are ${random1} and ${random2}
  
  
-    <br> <br> log2 applied to ${random1} is ${number1}
+    <br> <br> abs applied to ${random1} is ${number1}
  
  
-    <br> <br> cosh applied to ${random2} is ${number2}
+    <br> <br> acos applied to ${random2} is ${number2}
  
  
-    <br> <br> floor applied to ${random1} is ${number3}`);
+    <br> <br> sin applied to ${random1} is ${number3}`);
  
  
 });
