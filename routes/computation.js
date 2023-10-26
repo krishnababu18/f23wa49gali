@@ -19,11 +19,11 @@ var number3 = 0;
 router.get('/', function (req, res, next) {
  
  
-  number1 = Math.log2(random1);
+  number1 = Math.abs(random1);
  
-  number2 = Math.cosh(random2);
+  number2 = Math.acos(random2);
  
-  number3 = Math.floor(random1);
+  number3 = Math.sin(random1);
  
  
  
